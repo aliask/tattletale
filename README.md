@@ -22,3 +22,7 @@ https://discord.com/api/webhooks/000000000000000000/0000000000000000000000000000
 🍉 Installing SSH tattletale...
 🎉 Done! Test it out by doing a quick 'ssh localhost'!
 ```
+
+## Example
+
+![Example Notification](example.png)

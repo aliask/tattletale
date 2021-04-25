@@ -21,6 +21,8 @@ END {  printf "\"" }' ORS='\\\\n'`
 WEBHOOK_DATA=$(cat << EOF
 {
   "content": null,
+  "username": "Tattletail",
+  "avatar_url": "https://raw.githubusercontent.com/aliask/tattletale/main/tattletail.png",
   "embeds": [
     {
       "title": "New SSH login on $HOSTNAME",
@@ -28,12 +30,12 @@ WEBHOOK_DATA=$(cat << EOF
       "fields": [
         {
           "name": "Username",
-          "value": "=> $user",
+          "value": "👤 $user",
           "inline": true
         },
         {
           "name": "From",
-          "value": "=> $ip",
+          "value": "🌎 $ip",
           "inline": true
         }
       ],
