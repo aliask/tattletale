@@ -1,11 +1,14 @@
-# SSH Tattletale
+<img src="tattletail.png" align="left" width="50px" height="50px">
 
-Tiny script to send a Discord notification when a SSH login occurs.
+# SSH Tattletail
+
+Tiny shell script that sends a Discord notification when a SSH login occurs.
 
 ## Requirements
 
 - SSH Daemon using Pluggable Authentication Module (PAM)
 - Curl
+- Awk
 - Discord Webhook URL
 
 ## Installation
